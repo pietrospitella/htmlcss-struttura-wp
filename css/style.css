@@ -7,4 +7,75 @@
 .container {
     width: 80%;
     margin: 0 auto;
+    /* background-color: lightgrey; */
+}
+
+/* .clearfix {
+    content: "";
+    display: table;
+    clear: both;
+} */
+
+header {
+    height: 80px;
+    background-color: #E579E6;
+}
+
+main {
+    height: 500px;
+}
+
+
+footer {
+    height: 80px;
+    background-color: #8801FE;
+}
+
+.layout {
+    margin: 20px 0px;
+}
+
+.layout.top {
+    width: 100%;
+    height: 40%;
+    background-color: #E1D67A;
+}
+
+.layout.bottom {
+    float: left;
+    width: 100%;
+    height: 50%;
+    background-color: #0287F8;
+}
+
+.column {
+    background-color: #ABCFE7;
+}
+
+.column.head {
+    float: left;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.column.left {
+    float: left;
+    width: calc((100% / 5) - 8px); 
+    height: 150px;
+    margin-right: 8px;
+}
+
+.column.center {
+    float: left;
+    width: calc((100% / 5) * 3); 
+    height: 150px;
+}
+
+.column.right {
+    float: left;
+    width: calc((100% / 5) - 8px); 
+    height: 150px;
+    margin-left: 8px;
+
 }

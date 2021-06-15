@@ -5,77 +5,59 @@
 }
 
 .container {
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
-    /* background-color: lightgrey; */
 }
 
-/* .clearfix {
+.clearfix {
     content: "";
     display: table;
     clear: both;
-} */
+}
 
 header {
     height: 80px;
     background-color: #E579E6;
 }
 
-main {
-    height: 500px;
-}
 
 
 footer {
-    height: 80px;
+    height: 50px;
     background-color: #8801FE;
 }
 
-.layout {
-    margin: 20px 0px;
-}
 
-.layout.top {
-    width: 100%;
-    height: 40%;
+
+.layout-top {
+    height: 400px;
     background-color: #E1D67A;
+    margin: 20px 0;
 }
 
-.layout.bottom {
-    float: left;
+.layout-bottom {
     width: 100%;
-    height: 50%;
     background-color: #0287F8;
+    margin: 20px 0 10px 0;
 }
 
-.column {
+.head {
     background-color: #ABCFE7;
 }
 
-.column.head {
+.column, .center {
+    height: 300px;
     float: left;
-    width: 100%;
-    height: 50px;
-    margin-bottom: 20px;
+    background-color: #ABCFE7;
+    margin: 20px 0;
 }
 
-.column.left {
-    float: left;
-    width: calc((100% / 5) - 8px); 
-    height: 150px;
-    margin-right: 8px;
+.column.left, .column.right{
+    width: calc((100% / 5) - 20px); 
 }
 
-.column.center {
-    float: left;
+.center {
     width: calc((100% / 5) * 3); 
-    height: 150px;
+    margin: 20px;
 }
 
-.column.right {
-    float: left;
-    width: calc((100% / 5) - 8px); 
-    height: 150px;
-    margin-left: 8px;
-
-}
